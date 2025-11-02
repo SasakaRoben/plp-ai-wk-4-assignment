@@ -1,0 +1,30 @@
+Part 1: Theoretical Analysis
+1. Short Answer Questions
+
+Q1: Explain how AI-driven code generation tools (e.g., GitHub Copilot) reduce development time. What are their limitations?
+
+AI-driven code generation tools like GitHub Copilot reduce development time by assisting developers with context-aware code suggestions, boilerplate generation, and real-time error correction. They learn from large datasets of public code repositories and use natural language prompts or incomplete code fragments to predict what the developer intends to write next. This accelerates repetitive tasks, minimizes syntax errors, and helps beginners understand best practices faster.
+However, these tools have limitations. The generated code may be syntactically correct but logically flawed or inefficient, requiring human review. They also risk introducing security vulnerabilities if the suggested snippets include unsafe patterns from their training data. Furthermore, Copilot cannot fully understand complex business logic, project-specific requirements, or legal constraints such as licensing issues in reused code. Thus, human oversight remains essential.
+
+Q2: Compare supervised and unsupervised learning in the context of automated bug detection.
+
+In automated bug detection, supervised learning relies on labeled datasets where examples of buggy and non-buggy code are provided. The model learns patterns associated with known bugs and can then classify new code as “buggy” or “clean.” This method is effective when quality labeled data is available, but it struggles with unseen bug types or novel programming patterns.
+On the other hand, unsupervised learning does not require labeled data. It identifies anomalies or unusual code patterns that differ from the norm, which may indicate potential bugs. This approach is useful for discovering previously unknown issues but may produce more false positives, as not every anomaly corresponds to a real bug. In practice, both methods are often combined for better accuracy.
+
+Q3: Why is bias mitigation critical when using AI for user experience personalization?
+
+Bias mitigation is critical because AI-driven personalization directly influences what users see, experience, and engage with. If the underlying data or model is biased—such as favoring one demographic group over another—the system can unintentionally exclude or misrepresent certain users. This not only harms user trust but can also reinforce stereotypes or discrimination in content delivery and recommendations.
+By implementing bias mitigation, developers ensure fair and inclusive personalization where users receive recommendations based on their genuine preferences rather than biased correlations. Fair AI models promote ethical transparency, regulatory compliance, and long-term user satisfaction.
+
+2. Case Study Analysis
+
+Question: How does AIOps improve software deployment efficiency? Provide two examples.
+
+Answer:
+AIOps (Artificial Intelligence for IT Operations) enhances software deployment efficiency by automating repetitive DevOps processes, identifying potential failures before they occur, and optimizing resource utilization through intelligent data analysis. It leverages machine learning to analyze logs, metrics, and events across the deployment pipeline, helping teams react faster and reduce downtime.
+
+Example 1: Automated Anomaly Detection — AIOps tools can detect unusual patterns in CI/CD pipelines, such as increased build times or unexpected errors, and trigger alerts or rollbacks automatically. This minimizes manual monitoring and speeds up resolution.
+
+Example 2: Predictive Resource Scaling — By analyzing past deployment data, AIOps can forecast workload spikes and adjust infrastructure resources dynamically. This ensures smoother deployments, avoids bottlenecks, and reduces costs.
+
+Overall, AIOps transforms deployment from a reactive process to a predictive and self-healing one, significantly improving efficiency and reliability.

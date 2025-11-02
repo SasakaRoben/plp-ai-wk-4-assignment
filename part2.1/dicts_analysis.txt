@@ -1,0 +1,8 @@
+GitHub Copilot’s suggestion is concise and uses Python’s built-in sorted() function with a lambda expression, resulting in highly optimized and readable code. 
+The built-in sorting algorithm in Python (Timsort) has an average time complexity of O(n log n) and is memory efficient. 
+It automatically handles stability when sorting complex data structures such as lists of dictionaries.
+
+In contrast, the manual version uses a nested loop comparison, resembling a selection sort approach with a time complexity of O(n²). 
+While it works correctly, it’s inefficient for large datasets and more prone to logic or indexing errors.
+
+The AI-generated code demonstrates Copilot’s strength in quickly recognizing patterns and producing Pythonic solutions that align with best practices. The manual implementation, although functionally correct, is slower and less elegant. Therefore, the AI-suggested code is more efficient, readable, and maintainable.

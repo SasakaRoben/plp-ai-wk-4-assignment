@@ -1,0 +1,11 @@
+When deploying a predictive model in a company setting, potential bias in the dataset becomes a critical ethical concern. 
+If the data used to train the model is unbalanced — for instance, overrepresenting one department, team, or demographic group — the model might prioritize certain outcomes unfairly. 
+In practice, this could mean that issue severity predictions or resource allocations favor teams whose data patterns dominate the training set. 
+Underrepresented teams might receive fewer resources or slower response times, perpetuating inequality and reducing trust in AI-driven decisions.
+
+Bias can also stem from historical data that encodes human subjectivity or organizational culture. 
+If certain issue types were historically deprioritized, the model may learn to continue that trend.
+
+Fairness tools like IBM AI Fairness 360 (AIF360) help address these biases by offering bias detection, measurement, and mitigation techniques. 
+For example, AIF360 can compute fairness metrics such as disparate impact or equal opportunity difference, identify where bias exists, and apply reweighting or resampling algorithms to balance the dataset. 
+Integrating such tools ensures that predictive analytics remain transparent, accountable, and fair — preserving both ethical standards and user confidence in AI systems.

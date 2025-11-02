@@ -1,0 +1,6 @@
+The Random Forest model performs exceptionally well on this dataset, offering both high accuracy and F1-score. 
+The algorithm’s ensemble nature reduces overfitting while maintaining predictive stability. 
+Data preprocessing (handling missing values and encoding labels) ensures the model generalizes effectively.
+
+By mapping diagnostic outcomes to issue priorities (high/medium/low), the system can help allocate computational or team resources efficiently, focusing on “high-risk” issues first. 
+AI-driven analytics thus enhance decision-making in DevOps and operations planning.
